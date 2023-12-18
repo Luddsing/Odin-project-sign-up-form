@@ -1,0 +1,143 @@
+@font-face {
+    font-family: norseBlodfont;
+    src: url(Norse-Bold.otf);
+    
+}
+
+.signup{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+*{
+    font-size: 19px;
+}
+
+body{
+    background-color: rgb(14, 14, 14);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.logobox{
+    background-color: rgba(0, 0, 0, 0.322);
+    font-family: norseBlodfont;
+    font-size: 35.2px;
+    color: white;
+    width: 540px;
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 155px;
+
+
+}
+#logo{
+    width: 80px;
+
+}
+
+.logo-text{
+    font-size: 70px;
+}
+
+.upperDiv{
+    position: relative;
+    top: 100px;
+    left: 40px;
+}
+
+
+
+.sidepicture{
+    background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    height: 850px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+
+
+.container{
+    height: 850px;
+    width: 1300px;
+    background-color: rgba(241, 241, 241, 0.986);
+    display: flex;
+    border-radius: 5px;
+}
+
+
+
+button{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vh;
+    font-weight: bold;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 1.5vh 3vh 1.5vh 3vh;
+    margin: 40px 0px 10px 5px;
+
+    
+}
+
+.form-container {
+    width: 880px;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1.95px 2.6px;
+    background-color: white;
+    height: 350px;
+    position: relative;
+    top: 100px;
+    
+  }
+  .form-group {
+    margin-bottom: 10px;
+  }
+  label {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ececec;
+    border-radius: 3px;
+  }
+  .half-input-container {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    
+  }
+  .half-input-container > div {
+    width: 250px;
+  }
+
+  h2{
+    font-size: 15px;
+  }
+  #buttonText{
+    margin-left: 20px;
+  }
